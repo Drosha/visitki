@@ -1,0 +1,44 @@
+﻿<!doctype html>
+<html lang="ru" ng-app="builderApp">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+    <title>Конструктор визиток</title>
+
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap-colorpicker.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <script src="js/angularjs/angular.js"></script>
+    <script src="js/angularjs/angular-route.js"></script>
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/ui/ui-utils.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/controller/controllers.js"></script>
+    <script src="js/bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+
+<div class="container" ng-controller="PreviewsCtrl">
+    <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Конструктор визиток</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Конструктор</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#/login">Войти</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+    </div>
+
+    <div ng-view></div>
+
+</div>
+
+</body>
+</html>
