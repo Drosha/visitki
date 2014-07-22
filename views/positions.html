@@ -1,11 +1,12 @@
-﻿<div class="predefined">
+<div class="predefined">
     <div ng-repeat="slide in slides" class="item active">
-        <img ng-src="{{slide.image}}" ng-click="switchPositions(slide.index, position)" />
+        <img ng-src="{{slide.image}}" ng-click="switchPositions(slide.index)" />
     </div>
 </div>
+<br class="clearfix" />
 <div class="item-preview">
     <div class="pull-left">
-        <div class="image">
+        <div class="image" style="background-color: {{bgItems.value}}">
             <div style="{{positions.line1.startx}}:{{positions.line1.x}};{{positions.line1.starty}}:{{positions.line1.y}};position: absolute;" class="ng-binding ng-scope">{{binding.line1}}</div>
             <div style="{{positions.line2.startx}}:{{positions.line2.x}};{{positions.line2.starty}}:{{positions.line2.y}};position: absolute;" class="ng-binding ng-scope">{{binding.line2}}</div>
             <div style="{{positions.line3.startx}}:{{positions.line3.x}};{{positions.line3.starty}}:{{positions.line3.y}};position: absolute;" class="ng-binding ng-scope">{{binding.line3}}</div>
@@ -25,23 +26,25 @@
             <div class="btn-group">
                 <button type="button" class="btn btn-primary">Тыльная</button>
             </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-success" ng-click="saveData(binding);">Сохранить</button>
+            </div>
         </div>
     </div>
     <div class="background-edit pull-left">
-        <div class="btn-group">
-            <!--<button type="button" class="btn btn-default">Загрузить</button>-->
+        <button-drop-down ng-model="bgItems" backgrounds="backgrounds" />
+        <!--<select ng-model="bgItems" ng-options="background as background.label for background in backgrounds">
 
-            <div class="btn-group">
-                <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
-                    Выбрать готовый
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Фон 1</a></li>
-                    <li><a href="#">Фон 2</a></li>
-                </ul>
-            </div>
-        </div>
+        </select>-->
+        <!--<div class="btn-group">
+            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" ng-model="bgItems">
+                Выбрать готовый
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="background in backgrounds"><a href="#"><div class="bg-preview" style="background-color:{{background.value}}"></div>{{background.title}}</a></li>
+            </ul>
+        </div>-->
     </div>
 </div>
 <div class="text-values clearfix ng-scope">

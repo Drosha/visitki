@@ -9,4 +9,16 @@ class CMain extends CController {
         $fp = file_get_contents($config['BASEPATH'] . '/../data/positions.json');
         echo $fp;
     }
+
+    public function action_getbackgrounds() {
+        $db = CDBConnection::getInstance();
+        $backgrounds = $db->fetch_all("select title AS label, value from backgrounds");
+        echo json_encode($backgrounds);
+    }
+
+    public function action_save($params) {
+        $db = CDBConnection::getInstance();
+
+        print_r($params);
+    }
 }

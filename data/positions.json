@@ -1,4 +1,4 @@
-﻿{
+{
     "1": {
         "line1": {"y":"10px","x":"10px","startx":"left", "starty":"top","name":"company_name","placeholder":"Название компании"},
         "line2": {"y":"20px","x":"10px","startx":"left", "starty":"top","name":"company_slogan","placeholder":"Слоган"},

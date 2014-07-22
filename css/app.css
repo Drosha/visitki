@@ -48,3 +48,5 @@ body {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
+.bg-preview {width: 20px;height: 20px; float: left; margin-right: 5px; border: 1px solid #00435d;}
