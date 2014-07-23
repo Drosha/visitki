@@ -10,7 +10,7 @@ var builderAppCtrl = angular.module('builderAppCtrl', [])
             },
             template: '<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" ng-model="bgItems">Выбрать готовый<span class="caret"></span></button>'+
              '<ul class="dropdown-menu" role="menu">'+
-             '<li ng-repeat="background in backgrounds" ng-click="change(background.value)"><a href="#"><div class="bg-preview" style="background-color:{{background.value}}"></div>{{background.label}}</a></li>'+
+             '<li ng-repeat="background in backgrounds" ng-click="change(background.value)"><a href="#"><div class="bg-preview" style="background:{{background.value}}"></div>{{background.label}}</a></li>'+
              '</ul>'
         }
     });
