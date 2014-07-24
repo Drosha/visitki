@@ -16,9 +16,12 @@ class CMain extends CController {
         echo json_encode($backgrounds);
     }
 
-    public function action_save($params) {
+    public function action_save() {
         $db = CDBConnection::getInstance();
 
+        $params = json_decode(file_get_contents('php://input'));
+
+        //$sid = $params->sid;
         print_r($params);
     }
 }

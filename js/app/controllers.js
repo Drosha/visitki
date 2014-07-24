@@ -1,6 +1,6 @@
-builderAppCtrl.controller('PreviewsCtrl', function ($scope, $http) {
+builderAppCtrl.controller('PreviewsCtrl', function ($scope, $http, $location) {
     var slides = $scope.slides = [];
-
+    $scope.sid = $location.path().substr(1);
     for (var i = 1; i < 6; i++) {
         slides.push({
             image: 'images/snipets/m' + i + '.gif',
@@ -18,10 +18,9 @@ builderAppCtrl.controller('PreviewsCtrl', function ($scope, $http) {
         })
     };
 
-    $scope.saveData = function (binding) {
-        $http.post('/framework/main/save', binding).success(function(responce) {
-
-        })
+    $scope.saveData = function (binding, bg) {
+        $http.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=utf-8';
+        $http.post('/framework/main/save', {"texts":binding, bg:bg, sid: $scope.sid}).success(function(responce) {})
     };
 
     $scope.switchPositions(1);
