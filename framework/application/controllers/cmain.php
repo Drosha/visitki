@@ -3,13 +3,6 @@
 defined('ROOT') or die('No direct script access.');
 
 class CMain extends CController {
-
-    public function action_getpositions() {
-        include "config.php";
-        $fp = file_get_contents($config['BASEPATH'] . '/../data/positions.json');
-        echo $fp;
-    }
-
     public function action_getbackgrounds() {
         $db = CDBConnection::getInstance();
         $backgrounds = $db->fetch_all("select title AS label, value from backgrounds");
@@ -21,7 +14,13 @@ class CMain extends CController {
 
         $params = json_decode(file_get_contents('php://input'));
 
-        //$sid = $params->sid;
-        print_r($params);
+        $sid = $params->sid;
+        if (!empty($sid)) {
+            $db->execute('update builds set details=\''.json_encode($params).'\' where sid=\''.$sid.'\'');
+        }else {
+            $sid = md5(time() . session_id());
+            $db->execute('insert into builds values(\''.$sid.'\', \''.json_encode($params).'\')');
+            echo json_encode(array('sid' => $sid));
+        }
     }
 }

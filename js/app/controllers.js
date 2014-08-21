@@ -13,7 +13,7 @@ builderAppCtrl.controller('PreviewsCtrl', function ($scope, $http, $location) {
     })
 
     $scope.switchPositions = function (previewId) {
-        $http.get('/framework/main/getpositions').success(function(data) {
+        $http.get('/data/positions.json').success(function(data) {
             $scope.positions = data[previewId];
         })
     };
