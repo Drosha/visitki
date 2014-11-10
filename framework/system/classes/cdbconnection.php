@@ -25,7 +25,7 @@ class CDBConnection {
         
         if ($server_name != "") {
             try {
-                $this->dbh = new PDO('mysql:host=' . $server_name . ';dbname=' . $db_name, $base_user, $base_pass);
+                $this->dbh = new PDO('mysql:host=' . $server_name . ';dbname=' . $db_name . ';charset=utf8', $base_user, $base_pass);
             } catch (PDOException $e) {
                 echo $e->getMessage();
             }

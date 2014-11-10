@@ -20,7 +20,22 @@ class CMain extends CController {
         }else {
             $sid = md5(time() . session_id());
             $db->execute('insert into builds values(\''.$sid.'\', \''.json_encode($params).'\')');
-            echo json_encode(array('sid' => $sid));
+        }
+        echo json_encode(array('sid' => $sid));
+    }
+
+    public function action_load() {
+        $db = CDBConnection::getInstance();
+
+        $params = json_decode(file_get_contents('php://input'));
+
+        $sid = $params->sid;
+
+        if (!empty($sid)) {
+            $details = $db->fetch('select details from builds where sid=\''.$sid.'\'');
+            if (!empty($details)) {
+                echo $details['details'];
+            }
         }
     }
 }

@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="755903bf-8311-4313-ad5b-061619569d12" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/app.css" afterPath="$PROJECT_DIR$/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/app.js" afterPath="$PROJECT_DIR$/js/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/system/classes/cdbconnection.php" afterPath="$PROJECT_DIR$/framework/system/classes/cdbconnection.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/application/controllers/cmain.php" afterPath="$PROJECT_DIR$/framework/application/controllers/cmain.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/config.php" afterPath="$PROJECT_DIR$/framework/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/controllers.js" afterPath="$PROJECT_DIR$/js/app/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/index.php" afterPath="$PROJECT_DIR$/framework/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/positions.html" afterPath="$PROJECT_DIR$/views/positions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="visitki.tst.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,10 +33,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/config.php">
+      <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/app/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="23" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="480">
+            <state line="3" column="6" selection-start="184" selection-end="184" vertical-scroll-proportion="0.31914893" vertical-offset="0" max-vertical-offset="870">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="49" selection-start="136" selection-end="136" vertical-scroll-proportion="12.666667" vertical-offset="334" max-vertical-offset="1185">
+              <folding>
+                <element signature="e#6#86#0" expanded="false" />
+                <element signature="n#autoload_classes#0;n#!!top" expanded="false" />
+                <element signature="n#get_params#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="positions.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/positions.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="55" selection-start="399" selection-end="406" vertical-scroll-proportion="-3.75" vertical-offset="45" max-vertical-offset="1035">
+              <folding>
+                <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#1" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#8;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#9;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#10;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="tag#div#1;tag#div#1;tag#div#0;tag#div#1" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#8;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#9;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#10;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modules.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app/modules.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="72" selection-start="672" selection-end="678" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
@@ -39,19 +101,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+            <state line="3" column="14" selection-start="93" selection-end="93" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="795">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modules.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app/modules.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="9" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="315">
-              <folding>
-                <marker date="1406704065559" expanded="true" signature="741:772" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -59,12 +110,9 @@
       <file leaf-file-name="cmain.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/framework/application/controllers/cmain.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="50" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="465">
+            <state line="36" column="38" selection-start="1224" selection-end="1224" vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="690">
               <folding>
-                <marker date="1408009908264" expanded="true" signature="223:268" placeholder="select title..backgrounds..." />
-                <marker date="1408009908264" expanded="true" signature="549:575" placeholder="update build..." />
-                <marker date="1408009908264" expanded="true" signature="549:603" placeholder="update build..." />
-                <marker date="1408009908264" expanded="true" signature="549:577" placeholder="update build..." />
+                <marker date="1415645382401" expanded="true" signature="223:268" placeholder="select title..backgrounds..." />
               </folding>
             </state>
           </provider>
@@ -73,16 +121,7 @@
       <file leaf-file-name="cdbconnection.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/framework/system/classes/cdbconnection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="8" selection-start="2981" selection-end="2981" vertical-scroll-proportion="0.0" vertical-offset="1126" max-vertical-offset="1695">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/app/controllers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="39" selection-start="517" selection-end="517" vertical-scroll-proportion="0.37815127" vertical-offset="0" max-vertical-offset="595">
+            <state line="61" column="25" selection-start="1552" selection-end="1557" vertical-scroll-proportion="-13.833333" vertical-offset="583" max-vertical-offset="1695">
               <folding />
             </state>
           </provider>
@@ -102,17 +141,23 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/framework/config.php" />
-        <option value="$PROJECT_DIR$/js/app/controllers.js" />
+        <option value="$PROJECT_DIR$/css/app.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/framework/index.php" />
+        <option value="$PROJECT_DIR$/framework/system/classes/cdbconnection.php" />
+        <option value="$PROJECT_DIR$/js/app/app.js" />
         <option value="$PROJECT_DIR$/framework/application/controllers/cmain.php" />
+        <option value="$PROJECT_DIR$/views/positions.html" />
+        <option value="$PROJECT_DIR$/js/app/controllers.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
-    <option name="y" value="-4" />
+    <option name="y" value="31" />
     <option name="width" value="1374" />
-    <option name="height" value="744" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -168,6 +213,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="visitki.tst" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="visitki.tst" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -200,7 +259,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -214,7 +273,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -257,15 +316,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="744" extended-state="6" />
+    <frame x="-4" y="31" width="1374" height="709" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.713799" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25755286" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25755286" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27265862" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27265862" sideWeight="0.4940476" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -297,37 +356,170 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/framework/config.php">
+    <entry file="file://$PROJECT_DIR$/js/app/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="480">
+        <state line="24" column="0" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/views/positions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/modules.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="315">
+        <state line="29" column="99" selection-start="3011" selection-end="3011" vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="870">
           <folding>
-            <marker date="1406704065559" expanded="true" signature="741:772" placeholder="..." />
+            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#1" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#10;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="tag#div#1;tag#div#1;tag#div#0;tag#div#1" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#10;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/application/controllers/cmain.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="46" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding>
+            <marker date="1415645382401" expanded="true" signature="223:268" placeholder="select title..backgrounds..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/positions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="99" selection-start="3011" selection-end="3011" vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="870">
+          <folding>
+            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#1" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#10;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="tag#div#1;tag#div#1;tag#div#0;tag#div#1" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#10;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/application/controllers/cmain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="465">
+          <folding>
+            <marker date="1415645382401" expanded="true" signature="223:268" placeholder="select title..backgrounds..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/positions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="99" selection-start="3011" selection-end="3011" vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="870">
+          <folding>
+            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#1" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#10;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="tag#div#1;tag#div#1;tag#div#0;tag#div#1" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#10;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/application/controllers/cmain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="465">
+          <folding>
+            <marker date="1415645382401" expanded="true" signature="223:268" placeholder="select title..backgrounds..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="23" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/modules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="9" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/application/controllers/cmain.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="50" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="465">
           <folding>
-            <marker date="1408009908264" expanded="true" signature="223:268" placeholder="select title..backgrounds..." />
-            <marker date="1408009908264" expanded="true" signature="549:575" placeholder="update build..." />
-            <marker date="1408009908264" expanded="true" signature="549:603" placeholder="update build..." />
-            <marker date="1408009908264" expanded="true" signature="549:577" placeholder="update build..." />
+            <marker date="1415645382401" expanded="true" signature="223:268" placeholder="select title..backgrounds..." />
           </folding>
         </state>
       </provider>
@@ -348,35 +540,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="11" column="23" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/modules.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="315">
-          <folding>
-            <marker date="1406704065559" expanded="true" signature="741:772" placeholder="..." />
-          </folding>
-        </state>
+        <state line="14" column="9" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="315" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/application/controllers/cmain.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="50" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="465">
           <folding>
-            <marker date="1408009908264" expanded="true" signature="223:268" placeholder="select title..backgrounds..." />
-            <marker date="1408009908264" expanded="true" signature="549:575" placeholder="update build..." />
-            <marker date="1408009908264" expanded="true" signature="549:603" placeholder="update build..." />
-            <marker date="1408009908264" expanded="true" signature="549:577" placeholder="update build..." />
+            <marker date="1415645382401" expanded="true" signature="223:268" placeholder="select title..backgrounds..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/system/classes/cdbconnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="8" selection-start="2981" selection-end="2981" vertical-scroll-proportion="0.0" vertical-offset="1126" max-vertical-offset="1695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="39" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="23" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/modules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="9" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/application/controllers/cmain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="50" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="465">
+          <folding>
+            <marker date="1415645382401" expanded="true" signature="223:268" placeholder="select title..backgrounds..." />
           </folding>
         </state>
       </provider>
@@ -402,59 +621,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="480">
+        <state line="11" column="23" selection-start="197" selection-end="197" vertical-scroll-proportion="0.15761821" vertical-offset="0" max-vertical-offset="571" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="51" selection-start="1490" selection-end="1490" vertical-scroll-proportion="1.4464285" vertical-offset="0" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+        <state line="3" column="14" selection-start="93" selection-end="93" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="795">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="653" column="20" selection-start="18939" selection-end="18939" vertical-scroll-proportion="0.34622145" vertical-offset="9598" max-vertical-offset="20205" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="593" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/modules.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding>
-            <marker date="1406704065559" expanded="true" signature="741:772" placeholder="..." />
-          </folding>
+        <state line="653" column="20" selection-start="18939" selection-end="18939" vertical-scroll-proportion="0.16966067" vertical-offset="9710" max-vertical-offset="20205">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/system/classes/cdbconnection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="8" selection-start="2981" selection-end="2981" vertical-scroll-proportion="0.0" vertical-offset="1126" max-vertical-offset="1695">
+        <state line="61" column="25" selection-start="1552" selection-end="1557" vertical-scroll-proportion="-13.833333" vertical-offset="583" max-vertical-offset="1695">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/application/controllers/cmain.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="50" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="465">
+        <state line="36" column="38" selection-start="1224" selection-end="1224" vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="690">
           <folding>
-            <marker date="1408009908264" expanded="true" signature="223:268" placeholder="select title..backgrounds..." />
-            <marker date="1408009908264" expanded="true" signature="549:575" placeholder="update build..." />
-            <marker date="1408009908264" expanded="true" signature="549:603" placeholder="update build..." />
-            <marker date="1408009908264" expanded="true" signature="549:577" placeholder="update build..." />
+            <marker date="1415645382401" expanded="true" signature="223:268" placeholder="select title..backgrounds..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="19" selection-start="349" selection-end="349" vertical-scroll-proportion="0.36245352" vertical-offset="0" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="49" selection-start="136" selection-end="136" vertical-scroll-proportion="12.666667" vertical-offset="334" max-vertical-offset="1185">
+          <folding>
+            <element signature="e#6#86#0" expanded="false" />
+            <element signature="n#autoload_classes#0;n#!!top" expanded="false" />
+            <element signature="n#get_params#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/positions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="55" selection-start="399" selection-end="406" vertical-scroll-proportion="-3.75" vertical-offset="45" max-vertical-offset="1035">
+          <folding>
+            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#1" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#10;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="tag#div#1;tag#div#1;tag#div#0;tag#div#1" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#10;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/modules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="72" selection-start="672" selection-end="678" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="39" selection-start="517" selection-end="517" vertical-scroll-proportion="0.37815127" vertical-offset="0" max-vertical-offset="595">
+        <state line="3" column="6" selection-start="184" selection-end="184" vertical-scroll-proportion="0.31914893" vertical-offset="0" max-vertical-offset="870">
           <folding />
         </state>
       </provider>

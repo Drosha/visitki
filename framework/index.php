@@ -5,7 +5,7 @@
  * Date: 17.07.14
  * Time: 13:46
  */
-
+header('Content-Type: text/html; charset=utf-8');
 define('ROOT', dirname(__FILE__));
 session_start();
 function autoload_classes($param) {
