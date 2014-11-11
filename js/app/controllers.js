@@ -1,8 +1,7 @@
 builderAppCtrl.controller('PreviewsCtrl', function ($scope, $http, $location, $routeParams) {
     var slides = $scope.slides = [];
     $scope.link = 'появится после сохранения';
-    //$scope.sid = $location.path().substr(1);
-    //console.log();
+
     for (var i = 1; i < 6; i++) {
         slides.push({
             image: 'images/snipets/m' + i + '.gif',

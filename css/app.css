@@ -53,3 +53,5 @@ body {
 button-drop-down {position: relative;overflow: visible;display: inline-block;}
 
 #back, #back_fields {display: none;} /*default view*/
+
+.image #front div, .image #back div {cursor: pointer;}

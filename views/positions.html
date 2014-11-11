@@ -9,7 +9,7 @@
         <div>Постоянная ссылка на эту страницу<br /><a href="{{link}}">{{link}}</a></div>
         <div class="image" style="background: {{bgItems}}">
             <div id="front">
-                <div style="{{positions.line1.startx}}:{{positions.line1.x}};{{positions.line1.starty}}:{{positions.line1.y}};position: absolute;" class="ng-binding ng-scope">{{binding.front.line1}}</div>
+                <div style="{{positions.line1.startx}}:{{positions.line1.x}};{{positions.line1.starty}}:{{positions.line1.y}};position: absolute;" class="ng-binding ng-scope ui-draggable">{{binding.front.line1}}</div>
                 <div style="{{positions.line2.startx}}:{{positions.line2.x}};{{positions.line2.starty}}:{{positions.line2.y}};position: absolute;" class="ng-binding ng-scope">{{binding.front.line2}}</div>
                 <div style="{{positions.line3.startx}}:{{positions.line3.x}};{{positions.line3.starty}}:{{positions.line3.y}};position: absolute;" class="ng-binding ng-scope">{{binding.front.line3}}</div>
                 <div style="{{positions.line4.startx}}:{{positions.line4.x}};{{positions.line4.starty}}:{{positions.line4.y}};position: absolute;" class="ng-binding ng-scope">{{binding.front.line4}}</div>
@@ -48,7 +48,7 @@
         </div>
     </div>
     <div class="background-edit pull-left">
-        <button-drop-down model="bgItems" backgrounds="backgrounds" />
+        <button-drop-down modelname="bgItems" backgrounds="backgrounds" />
     </div>
 </div>
 <div class="text-values clearfix ng-scope">
